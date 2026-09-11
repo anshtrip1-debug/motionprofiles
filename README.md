@@ -4,7 +4,7 @@ Rest-to-rest motion profiles for a single axis. C++17 core, Python plotter.
 
 ![trapezoidal against jerk limited](move.png)
 
-## Two generators
+## Two generators.
 
 **Trapezoidal.** Ramp up at `amax`, cruise at `vmax`, ramp down.
 Acceleration steps instantly, so jerk is unbounded at four instants in the
